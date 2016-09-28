@@ -161,6 +161,7 @@ header {
 
 section img {
 	float: right;
+	margin-left: 15px;
 }
 
 .clear {
@@ -335,9 +336,19 @@ footer {
 	.content-bottom {
 		text-align: center;
 	}
+	
+	section img {
+		display: block;
+		float: none;
+		margin-left: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 @keyframes opacity {
 	from {opacity: 0;}
 	to {opacity: 1;}
 }
+
