@@ -58,6 +58,7 @@ header {
 
 #nav {
 	float: right;
+	display: block;
 }
 
 .main-image {
@@ -279,6 +280,7 @@ footer {
 	}
 	
 	#nav {
+		display: none;
 		width: 100%;
 		margin: 0.7em 0;
 	}
